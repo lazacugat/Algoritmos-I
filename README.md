@@ -1,44 +1,4 @@
 
-# Algoritmos-1
-
-Bienvenido al repositorio de **Algoritmos-1**.
-
-## Descripción
-
-Este repositorio contiene ejercicios y proyectos relacionados con algoritmos fundamentales, estructuras de datos y conceptos de programación.
-
-## Contenido
-
-El repo está dividido en 4 proyectos:
-
-- **Proyecto 1 (Haskell)**: repaso de funciones. Recursión (caso base/inductivo), pattern-matching, composición, polimorfismo y funciones de alto orden.
-- **Proyecto 2 (Haskell)**: definición de **tipos de datos propios** y funciones para manipular expresiones construidas con esos tipos.
-- **Proyecto 3 (C / modelo imperativo)**: introducir **estado** y programas como transformadores de estado; diferencias entre modelo imperativo y funcional; implementar en **C** programas imperativos vistos en la materia.
-- **Proyecto 4 (C / arreglos y TADs)**: profundizar el desarrollo en C con el formalismo de la materia; usar `assert.h` para chequear condiciones de estado; trabajar con **arreglos** y definir **tipos abstractos básicos** con `struct`.
-
-## Requisitos
-
-- **Haskell**: `ghci` 
-- **C**: `gcc` 
-
-## Uso
-
-## Uso
-1. Cloná el repositorio:
-   ```bash
-   git clone https://github.com/lazacugat/Algoritmos-I.git
-
-Entrá a la carpeta del proyecto:
-
-cd Algoritmos-I/Proyecto_1
-Ejecutar Haskell (Proyecto 1 / 2)
-
-Reemplazá <archivo>.hs por el archivo principal del proyecto.
-
-ghci -Wall <archivo>.hs
-Compilar y ejecutar C (Proyecto 3 / 4)
-gcc -Wall -Wextra -O2 -o app *.c && ./app
-
 # Algoritmos y Estructuras de Datos I 💻
 
 Este repositorio contiene las soluciones a los proyectos prácticos de la materia **Algoritmos 1** (FAMAF - Universidad Nacional de Córdoba). El enfoque principal es la transición del paradigma funcional al imperativo, haciendo hincapié en la corrección algorítmica y el uso de tipos de datos.
