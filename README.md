@@ -9,36 +9,39 @@ Bienvenido al repositorio de **Algoritmos-I**. Este espacio contiene ejercicios 
 
 El repo está dividido en 4 proyectos principales:
 
-| Proyecto | Tecnología | Descripción Técnica |
-| :--- | :--- | :--- |
-| **Proyecto 1** | ![Haskell](https://img.shields.io/badge/Haskell-5D4F85?style=flat&logo=haskell&logoColor=white) | **Repaso de funciones:** Recursión (caso base/inductivo), pattern-matching, composición, polimorfismo y funciones de alto orden. |
-| **Proyecto 2** | ![Haskell](https://img.shields.io/badge/Haskell-5D4F85?style=flat&logo=haskell&logoColor=white) | **Tipos de datos:** Definición de tipos de datos propios y funciones para manipular expresiones construidas con esos tipos. |
-| **Proyecto 3** | ![C](https://img.shields.io/badge/C-A8B9CC?style=flat&logo=c&logoColor=white) | **Modelo imperativo:** Introducción al estado y programas como transformadores de estado; diferencias entre modelo imperativo y funcional. |
-| **Proyecto 4** | ![C](https://img.shields.io/badge/C-A8B9CC?style=flat&logo=c&logoColor=white) | **Arreglos y TADs:** Uso de `assert.h` para chequear condiciones de estado; trabajo con arreglos y definición de tipos abstractos básicos con `struct`. |
+| Proyecto | Tecnología | Descripción |
+|:---|:---|:---|
+| **Proyecto 1** | ![Haskell](https://img.shields.io/badge/Haskell-5D4F85?style=flat&logo=haskell&logoColor=white) | Recursión, pattern-matching, composición, polimorfismo y funciones de alto orden |
+| **Proyecto 2** | ![Haskell](https://img.shields.io/badge/Haskell-5D4F85?style=flat&logo=haskell&logoColor=white) | Tipos de datos personalizados y funciones para manipular expresiones |
+| **Proyecto 3** | ![C](https://img.shields.io/badge/C-A8B9CC?style=flat&logo=c&logoColor=white) | Programación imperativa: estado y transformadores de estado |
+| **Proyecto 4** | ![C](https://img.shields.io/badge/C-A8B9CC?style=flat&logo=c&logoColor=white) | Arreglos y TADs con `assert.h`, `struct` |
 
 ---
 
-## 🛠️ Instalación y Ejecución
+## 🛠️ Requisitos
 
-### Requisitos previos
-* **Haskell:** [GHC](https://www.haskell.org/ghc/) (Glasgow Haskell Compiler)
-* **C:** [GCC](https://gcc.gnu.org/) o Clang
+- **Haskell:** [GHC](https://www.haskell.org/ghc/)
+- **C:** [GCC](https://gcc.gnu.org/)
 
 ---
 
-### 🚀 Cómo correr los proyectos
+## 🚀 Uso
 
-1. **Clonar el repositorio:**
-   ```bash
-   git clone [https://github.com/lazacugat/Algoritmos-I.git](https://github.com/lazacugat/Algoritmos-I.git)
-   cd Algoritmos-I
+**Clonar el repositorio:**
+```bash
+git clone https://github.com/lazacugat/Algoritmos-I.git
+cd Algoritmos-I
+```
 
-2. **Para Haskell (Proyectos 1 y 2):**
-   ```bash
-   ghci -Wall <nombre_del_archivo>.hs
+**Proyectos 1 y 2 (Haskell):**
+```bash
+ghci -Wall <archivo>.hs
+```
 
-3. **Para C (Proyectos 3 y 4):**
-   ```bash
-    gcc -Wall -Wextra -std=c99 -o programa *.c
-    ./programa
+**Proyectos 3 y 4 (C):**
+```bash
+gcc -Wall -Wextra -std=c99 -o programa *.c
+./programa
+```
+
 
