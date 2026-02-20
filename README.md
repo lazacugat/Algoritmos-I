@@ -24,6 +24,8 @@ El repo está dividido en 4 proyectos principales:
 * **Haskell:** [GHC](https://www.haskell.org/ghc/) (Glasgow Haskell Compiler)
 * **C:** [GCC](https://gcc.gnu.org/) o Clang
 
+---
+
 ### 🚀 Cómo correr los proyectos
 
 1. **Clonar el repositorio:**
